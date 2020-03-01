@@ -1,9 +1,3 @@
-
-
-/// <reference path="../@types/i18n-js/index.d.ts" />
-
-// import { I18n} from "../@types/i18n-js";
-
 declare module 'react-native-i18n'{
     type Scope = string | string[];
 
@@ -75,5 +69,4 @@ declare module 'react-native-i18n'{
     function toHumanSize(num: number, options?: ToHumanSizeOptions): string;
 
     function strftime(date: Date, format: string): string;
-};
-
+}
